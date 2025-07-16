@@ -1,0 +1,274 @@
+body{
+    background:white;
+}
+
+#dp{
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    margin-top:-5px;
+    margin-left:20px;
+    position: fixed;
+    z-index:1;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#nav{
+    text-align:right;
+    padding:10px;
+    margin-left:-3px;
+    width:96.8%;
+    margin-top: -45px;
+    background: black;
+    position: fixed;
+    z-index:0;
+}
+
+#nav ul li{
+    display:inline;
+    text-align:center;
+    margin-right:30px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+
+#mybio{
+    margin-top:43px;
+    margin-right: 10px;
+    padding-top:7%;
+    padding-left:20%;
+    padding-bottom:1%;
+    box-shadow: 1px 1px 10px #bbb;
+    background: url('images/d6.jpg');
+    background-size:cover;
+    color:white;
+}
+#mybio h1,#mybio h3{
+    box-shadow: 0px 0px 20px black;
+}
+
+#mybio img{
+    width:200px;
+    height:200px;
+    margin-left:500px;
+    margin-top:-200px;
+    border-radius:100%;
+    margin-bottom:50px;
+    box-shadow: 0px 0px 20px rgb(65, 65, 159);
+}
+
+#myexpp{
+    margin-top:43px;
+    margin-right: 10px;
+    padding-top:7%;
+    padding-left:10%;
+    padding-bottom:1%;
+    box-shadow: 1px 1px 7px #bbb;
+    background-size:cover;
+    color:white;
+}
+
+#myexpp img{
+    width:350px;
+    height:300px;
+    border-radius:2%;
+    border-right:2px solid blue;
+    border-top:2px solid blue;
+    border-left:2px solid cyan;
+    border-bottom:2px solid cyan;
+    padding-right:10px;
+    box-shadow: 0px 0px 3px black;
+    margin-bottom: 50px;
+}
+
+#myexpp #myexp1{
+    float:right;
+    color:black;
+    margin-right:130px;
+    border-left:2px solid cyan;
+    width:500px;
+    height:300px;
+    padding-left:50px;
+}
+
+#myeduu{
+    margin-top:43px;
+    margin-right: 10px;
+    margin-left:40px;
+    padding:10px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 7px #bbb;
+    background-size:cover;
+    background: white;
+    width:330px;
+    color:white;
+    border-radius:2%;
+    box-shadow: 0px 0px 5px black;
+    border-right:2px solid cyan;
+    border-top:2px solid cyan;
+    float:left;
+}
+
+#myeduu img{
+    width:280px;
+    height:190px;
+    border-radius:2%;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 10px;
+}
+
+#myeduu #myedu1{
+    color:black;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+#myeduu #myedu1 h4{margin-top:-10px;}
+
+#myproj{
+    margin-top:480px;
+    text-align:center;margin-bottom:-10px;
+}
+
+
+
+#myprojj{
+    margin-top:43px;
+    margin-right: 10px;
+    margin-left:40px;
+    padding:10px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 7px #bbb;
+    background-size:cover;
+    background: white;
+    width:330px;
+    color:white;
+    border-radius:2%;
+    box-shadow: 0px 0px 5px black;
+    border-right:2px solid blue;
+    border-bottom:2px solid blue;
+    float:left;
+}
+
+#myprojj img{
+    width:280px;
+    height:190px;
+    border-radius:2%;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 10px;
+}
+
+#myprojj #myproj1{
+    color:black;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+#myprojj #myproj1 h4{margin-top:-10px;}
+
+
+
+
+#myach{
+    margin-top:550px;
+    text-align:center;margin-bottom:-10px;
+}
+
+#myachh{
+    margin-top:43px;
+    margin-right: 10px;
+    margin-left:40px;
+    box-shadow: 1px 1px 7px #bbb;
+    background-size:cover;
+    background: white;
+    width:330px;
+    height:250px;
+    color:black;
+    border-radius:3%;
+    box-shadow: 0px -2px 5px black;
+    border-top:2px solid blue;
+    float:left;
+    padding:10px;
+}
+
+#myachh #myach1{
+    margin-top:5px;
+}
+
+#myachh #myach1 ul li{
+    margin-top:5px;
+}
+
+
+#myconn{
+    margin-top:43px;
+    margin-right: 10px;
+    margin-left:40px;
+    padding:10px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 7px #bbb;
+    background-size:cover;
+    background: white;
+    width:90%;
+    color:black;
+    border-radius:1%;
+    box-shadow: 0px 0px 5px black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    float:left;
+}
+
+#myconn #mycon1{
+    color:black;
+}
+
+#myconn #mycon1 form{
+    margin-top:8px;
+    margin-left: 30%;
+    padding:10px;
+    padding-top: 50px;
+    box-shadow: 1px 1px 7px #bbb;
+    background-size:cover;
+    background: white;
+    width:40%;
+    color:black;
+    border-radius:1%;
+    box-shadow: 0px 0px 5px black;
+}
+
+#myconn #mycon1 form #f1{
+    margin-bottom:40px;
+    margin-left:23%;
+    margin-top:5px;
+    border-radius:5px;
+    border:none;
+    box-shadow: 0px 0px 5px black;
+    padding:13px;
+    width:250px;
+}
+
+#myconn #mycon1 form label{
+    margin-left:23%;
+    font-weight:bold;
+}
+
+#myconn #mycon1 form #submit{
+    margin-bottom:40px;
+    margin-left:35%;
+    margin-top:5px;
+    border-radius:5px;
+    border:none;
+    box-shadow: 0px 0px 5px black;
+    padding:13px;
+    background:cyan;
+    font-weight:bold;
+    color:black;
+    width:120px;
+    cursor: pointer;
+}
